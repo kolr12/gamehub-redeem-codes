@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub - Redeem Codes & Gaming Tips</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🎮</span>
+                <span class="logo-text">GAME<span class="highlight">HUB</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#games" class="nav-link">Games</a></li>
+                <li><a href="#redeem" class="nav-link">Redeem Codes</a></li>
+                <li><a href="#tips" class="nav-link">Tips & Guides</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                <span>Live Code Updates</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="glitch" data-text="REDEEM">REDEEM</span>
+                <span class="title-highlight">CODES</span>
+                <span class="title-sub">& GAMING TIPS</span>
+            </h1>
+            <p class="hero-desc">
+                Get exclusive redeem codes for your favorite games. Updated daily with active codes for Genshin Impact, Mobile Legends, PUBG, Free Fire, and more!
+            </p>
+            <div class="hero-search">
+                <input type="text" placeholder="Search games, codes, or tips..." id="searchInput">
+                <button class="search-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <path d="m21 21-4.35-4.35"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Games</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1K+</span>
+                    <span class="stat-label">Active Codes</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100K+</span>
+                    <span class="stat-label">Users</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card">
+                <div class="card-glow"></div>
+                <div class="card-content">
+                    <span class="code-label">NEW CODE</span>
+                    <span class="code-text">GENSHIN2024</span>
+                    <span class="code-reward">🎁 60 Primogems</span>
+                    <button class="copy-btn">COPY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Active Codes Section -->
+    <section id="redeem" class="active-codes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">🔥 HOT CODES</span>
+                <h2 class="section-title">Active Redeem Codes</h2>
+                <p class="section-desc">Grab these codes before they expire!</p>
+            </div>
+            
+            <div class="codes-filter">
+                <button class="filter-btn active" data-filter="all">All Games</button>
+                <button class="filter-btn" data-filter="genshin">Genshin Impact</button>
+                <button class="filter-btn" data-filter="mlbb">Mobile Legends</button>
+                <button class="filter-btn" data-filter="pubg">PUBG</button>
+                <button class="filter-btn" data-filter="ff">Free Fire</button>
+            </div>
+
+            <div class="codes-grid">
+                <!-- Genshin Impact -->
+                <div class="code-card" data-game="genshin">
+                    <div class="card-header">
+                        <img src="https://via.placeholder.com/60x60/667eea/ffffff?text=GI" alt="Genshin" class="game-icon">
+                        <div class="game-info">
+                            <h3>Genshin Impact</h3>
+                            <span class="expiry">⏰ Expires in 2 days</span>
+                        </div>
+                        <span class="status active">ACTIVE</span>
+                    </div>
+                    <div class="code-box">
+                        <code>GENSHIN2024GIFT</code>
+                        <button class="copy-code-btn" data-code="GENSHIN2024GIFT">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            COPY
+                        </button>
+                    </div>
+                    <div class="reward">🎁 60 Primogems + 5 Hero's Wit</div>
+                </div>
+
+                <div class="code-card" data-game="genshin">
+                    <div class="card-header">
+                        <img src="https://via.placeholder.com/60x60/667eea/ffffff?text=GI" alt="Genshin" class="game-icon">
+                        <div class="game-info">
+                            <h3>Genshin Impact</h3>
+                            <span class="expiry">⏰ Expires in 5 days</span>
+                        </div>
+                        <span class="status active">ACTIVE</span>
+                    </div>
+                    <div class="code-box">
+                        <code>PRIMOGEM60FREE</code>
+                        <button class="copy-code-btn" data-code="PRIMOGEM60FREE">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            COPY
+                        </button>
+                    </div>
+                    <div class="reward">🎁 60 Primogems</div>
+                </div>
+
+                <!-- Mobile Legends -->
+                <div class="code-card" data-game="mlbb">
+                    <div class="card-header">
+                        <img src="https://via.placeholder.com/60x60/ff6b6b/ffffff?text=ML" alt="MLBB" class="game-icon">
+                        <div class="game-info">
+                            <h3>Mobile Legends</h3>
+                            <span class="expiry">⏰ Expires in 3 days</span>
+                        </div>
+                        <span class="status active">ACTIVE</span>
+                    </div>
+                    <div class="code-box">
+                        <code>MLBB2024DIAMOND</code>
+                        <button class="copy-code-btn" data-code="MLBB2024DIAMOND">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            COPY
+                        </button>
+                    </div>
+                    <div class="reward">🎁 100 Diamonds + Skin Trial</div>
+                </div>
+
+                <!-- PUBG -->
+                <div class="code-card" data-game="pubg">
+                    <div class="card-header">
+                        <img src="https://via.placeholder.com/60x60/feca57/ffffff?text=PG" alt="PUBG" class="game-icon">
+                        <div class="game-info">
+                            <h3>PUBG Mobile</h3>
+                            <span class="expiry">⏰ Expires in 1 day</span>
+                        </div>
+                        <span class="status urgent">URGENT</span>
+                    </div>
+                    <div class="code-box">
+                        <code>PUBGUC2024FREE</code>
+                        <button class="copy-code-btn" data-code="PUBGUC2024FREE">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            COPY
+                        </button>
+                    </div>
+                    <div class="reward">🎁 50 UC + Classic Crate</div>
+                </div>
+
+                <!-- Free Fire -->
+                <div class="code-card" data-game="ff">
+                    <div class="card-header">
+                        <img src="https://via.placeholder.com/60x60/48dbfb/ffffff?text=FF" alt="FF" class="game-icon">
+                        <div class="game-info">
+                            <h3>Free Fire</h3>
+                            <span class="expiry">⏰ Expires in 4 days</span>
+                        </div>
+                        <span class="status active">ACTIVE</span>
+                    </div>
+                    <div class="code-box">
+                        <code>FFDiamond2024</code>
+                        <button class="copy-code-btn" data-code="FFDiamond2024">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            COPY
+                        </button>
+                    </div>
+                    <div class="reward">🎁 100 Diamonds + Character</div>
+                </div>
+
+                <div class="code-card" data-game="ff">
+                    <div class="card-header">
+                        <img src="https://via.placeholder.com/60x60/48dbfb/ffffff?text=FF" alt="FF" class="game-icon">
+                        <div class="game-info">
+                            <h3>Free Fire</h3>
+                            <span class="expiry">⏰ Expires in 7 days</span>
+                        </div>
+                        <span class="status active">ACTIVE</span>
+                    </div>
+                    <div class="code-box">
+                        <code>FFMAXREWARDS</code>
+                        <button class="copy-code-btn" data-code="FFMAXREWARDS">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                            </svg>
+                            COPY
+                        </button>
+                    </div>
+                    <div class="reward">🎁 Weapon Skin + Pet</div>
+                </div>
+            </div>
+
+            <div class="view-all">
+                <a href="#" class="btn btn-glow">View All Codes →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">🎯 POPULAR</span>
+                <h2 class="section-title">Supported Games</h2>
+                <p class="section-desc">Find redeem codes for your favorite games</p>
+            </div>
+
+            <div class="games-grid">
+                <div class="game-card">
+                    <div class="game-image" style="--game-color: #667eea;">
+                        <span class="game-initial">GI</span>
+                        <div class="game-overlay">
+                            <span class="code-count">12 Active Codes</span>
+                        </div>
+                    </div>
+                    <div class="game-info-card">
+                        <h3>Genshin Impact</h3>
+                        <p>Open-world RPG by miHoYo</p>
+                        <a href="#" class="game-link">Get Codes →</a>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-image" style="--game-color: #ff6b6b;">
+                        <span class="game-initial">ML</span>
+                        <div class="game-overlay">
+                            <span class="code-count">8 Active Codes</span>
+                        </div>
+                    </div>
+                    <div class="game-info-card">
+                        <h3>Mobile Legends</h3>
+                        <p>5v5 MOBA by Moonton</p>
+                        <a href="#" class="game-link">Get Codes →</a>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-image" style="--game-color: #feca57;">
+                        <span class="game-initial">PG</span>
+                        <div class="game-overlay">
+                            <span class="code-count">5 Active Codes</span>
+                        </div>
+                    </div>
+                    <div class="game-info-card">
+                        <h3>PUBG Mobile</h3>
+                        <p>Battle Royale by Tencent</p>
+                        <a href="#" class="game-link">Get Codes →</a>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-image" style="--game-color: #48dbfb;">
+                        <span class="game-initial">FF</span>
+                        <div class="game-overlay">
+                            <span class="code-count">15 Active Codes</span>
+                        </div>
+                    </div>
+                    <div class="game-info-card">
+                        <h3>Free Fire</h3>
+                        <p>Battle Royale by Garena</p>
+                        <a href="#" class="game-link">Get Codes →</a>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-image" style="--game-color: #1dd1a1;">
+                        <span class="game-initial">COC</span>
+                        <div class="game-overlay">
+                            <span class="code-count">3 Active Codes</span>
+                        </div>
+                    </div>
+                    <div class="game-info-card">
+                        <h3>Clash of Clans</h3>
+                        <p>Strategy by Supercell</p>
+                        <a href="#" class="game-link">Get Codes →</a>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-image" style="--game-color: #ff9ff3;">
+                        <span class="game-initial">COD</span>
+                        <div class="game-overlay">
+                            <span class="code-count">6 Active Codes</span>
+                        </div>
+                    </div>
+                    <div class="game-info-card">
+                        <h3>COD Mobile</h3>
+                        <p>FPS by Activision</p>
+                        <a href="#" class="game-link">Get Codes →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="tips-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">💡 GUIDES</span>
+                <h2 class="section-title">Latest Gaming Tips</h2>
+                <p class="section-desc">Improve your gameplay with our expert guides</p>
+            </div>
+
+            <div class="tips-grid">
+                <article class="tip-card featured">
+                    <div class="tip-image" style="--tip-color: #667eea;">
+                        <span class="tip-badge">FEATURED</span>
+                        <span class="tip-icon">⚔️</span>
+                    </div>
+                    <div class="tip-content">
+                        <div class="tip-meta">
+                            <span class="tip-game">Genshin Impact</span>
+                            <span class="tip-date">5 min read</span>
+                        </div>
+                        <h3>Complete Beginner's Guide to Artifact Farming</h3>
+                        <p>Learn the best domains, resin management, and which artifacts to prioritize for your characters.</p>
+                        <a href="#" class="read-more">Read Guide →</a>
+                    </div>
+                </article>
+
+                <article class="tip-card">
+                    <div class="tip-image" style="--tip-color: #ff6b6b;">
+                        <span class="tip-icon">🏆</span>
+                    </div>
+                    <div class="tip-content">
+                        <div class="tip-meta">
+                            <span class="tip-game">Mobile Legends</span>
+                            <span class="tip-date">3 min read</span>
+                        </div>
+                        <h3>Rank Up Fast: Pro Tips for Mythic</h3>
+                        <p>Essential strategies to climb the ranked ladder quickly.</p>
+                        <a href="#" class="read-more">Read Guide →</a>
+                    </div>
+                </article>
+
+                <article class="tip-card">
+                    <div class="tip-image" style="--tip-color: #feca57;">
+                        <span class="tip-icon">🎯</span>
+                    </div>
+                    <div class="tip-content">
+                        <div class="tip-meta">
+                            <span class="tip-game">PUBG Mobile</span>
+                            <span class="tip-date">4 min read</span>
+                        </div>
+                        <h3>Erangel Best Loot Locations 2024</h3>
+                        <p>Discover the hottest drop spots for the best gear.</p>
+                        <a href="#" class="read-more">Read Guide →</a>
+                    </div>
+                </article>
+
+                <article class="tip-card">
+                    <div class="tip-image" style="--tip-color: #48dbfb;">
+                        <span class="tip-icon">🔥</span>
+                    </div>
+                    <div class="tip-content">
+                        <div class="tip-meta">
+                            <span class="tip-game">Free Fire</span>
+                            <span class="tip-date">2 min read</span>
+                        </div>
+                        <h3>Character Skill Combos That Dominate</h3>
+                        <p>Best character combinations for aggressive playstyle.</p>
+                        <a href="#" class="read-more">Read Guide →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Never Miss a Code!</h2>
+                    <p>Get the latest redeem codes and gaming tips delivered to your inbox.</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-glow">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">🎮</span>
+                        <span class="logo-text">GAME<span class="highlight">HUB</span></span>
+                    </a>
+                    <p>Your ultimate destination for game redeem codes and pro gaming tips.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Discord">💬</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="social-link" aria-label="YouTube">📺</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📸</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">Redeem Codes</a></li>
+                            <li><a href="#">Game Guides</a></li>
+                            <li><a href="#">Latest Tips</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Popular Games</h4>
+                        <ul>
+                            <li><a href="#">Genshin Impact</a></li>
+                            <li><a href="#">Mobile Legends</a></li>
+                            <li><a href="#">PUBG Mobile</a></li>
+                            <li><a href="#">Free Fire</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GameHub. All rights reserved. Not affiliated with game developers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <span class="toast-icon">✓</span>
+        <span class="toast-message">Code copied to clipboard!</span>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
