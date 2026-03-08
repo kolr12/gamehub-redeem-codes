@@ -956,6 +956,214 @@ section {
     padding-left: 4px;
 }
 
+/* Roblox Section */
+.roblox-section {
+    background: linear-gradient(180deg, var(--bg-dark) 0%, #0f0f1a 50%, var(--bg-dark) 100%);
+    position: relative;
+}
+
+.roblox-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #ff4757, transparent);
+}
+
+.roblox-filter {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.roblox-codes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.roblox-code-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 71, 87, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.roblox-code-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 71, 87, 0.4);
+    box-shadow: 0 10px 40px rgba(255, 71, 87, 0.1);
+}
+
+.roblox-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    background: linear-gradient(135deg, rgba(255, 71, 87, 0.1) 0%, transparent 100%);
+    border-bottom: 1px solid rgba(255, 71, 87, 0.1);
+}
+
+.roblox-icon {
+    width: 60px;
+    height: 60px;
+    background: var(--game-color);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.roblox-info h3 {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.roblox-developer {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.roblox-status {
+    margin-left: auto;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.roblox-status.active {
+    background: rgba(34, 197, 94, 0.2);
+    color: #22c55e;
+}
+
+.roblox-codes-list {
+    padding: 20px;
+}
+
+.roblox-code-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.roblox-code-item:hover {
+    background: rgba(255, 71, 87, 0.1);
+}
+
+.roblox-code-item code {
+    flex: 1;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.roblox-reward {
+    font-size: 0.8rem;
+    color: var(--primary-light);
+    padding: 4px 10px;
+    background: rgba(168, 85, 247, 0.1);
+    border-radius: 50px;
+    white-space: nowrap;
+}
+
+.roblox-copy {
+    padding: 8px 16px;
+    background: rgba(255, 71, 87, 0.2);
+    border: 1px solid rgba(255, 71, 87, 0.3);
+    border-radius: 8px;
+    color: #ff4757;
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.roblox-copy:hover {
+    background: #ff4757;
+    color: white;
+}
+
+.roblox-footer {
+    padding: 16px 24px;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.redeem-method {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.roblox-info-banner {
+    display: flex;
+    gap: 20px;
+    padding: 32px;
+    background: linear-gradient(135deg, rgba(255, 71, 87, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%);
+    border: 1px solid rgba(255, 71, 87, 0.2);
+    border-radius: 20px;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 71, 87, 0.2);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.info-content h4 {
+    font-family: var(--font-display);
+    font-size: 1.125rem;
+    margin-bottom: 8px;
+}
+
+.info-content p {
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+}
+
+@media (max-width: 768px) {
+    .roblox-codes-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .roblox-code-item {
+        flex-wrap: wrap;
+    }
+    
+    .roblox-code-item code {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+    .roblox-info-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .footer-bottom {
     text-align: center;
     padding-top: 40px;

@@ -12,7 +12,84 @@ document.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();
     initSmoothScroll();
     initNewsletter();
+    initRobloxFilter();
+    initRobloxCopy();
 });
+
+/**
+ * Roblox Filter
+ */
+function initRobloxFilter() {
+    const filterButtons = document.querySelectorAll('.roblox-filter .filter-btn');
+    const robloxCards = document.querySelectorAll('.roblox-code-card');
+    
+    filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterButtons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            
+            const filter = btn.dataset.filter;
+            
+            robloxCards.forEach(card => {
+                const game = card.dataset.robloxGame;
+                
+                if (filter === 'roblox-all' || game === filter) {
+                    card.style.display = 'block';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 10);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
+            });
+        });
+    });
+}
+
+/**
+ * Roblox Code Copy
+ */
+function initRobloxCopy() {
+    const copyButtons = document.querySelectorAll('.roblox-copy');
+    
+    copyButtons.forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const code = btn.dataset.code;
+            
+            try {
+                await navigator.clipboard.writeText(code);
+                showToast('Roblox code copied!');
+                
+                const originalText = btn.textContent;
+                btn.textContent = '✓';
+                btn.style.background = '#22c55e';
+                btn.style.borderColor = '#22c55e';
+                btn.style.color = 'white';
+                
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.background = '';
+                    btn.style.borderColor = '';
+                    btn.style.color = '';
+                }, 2000);
+                
+            } catch (err) {
+                const textArea = document.createElement('textarea');
+                textArea.value = code;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                showToast('Code copied!');
+            }
+        });
+    });
+}
 
 /**
  * Particle Background Animation

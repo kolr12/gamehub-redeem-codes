@@ -1,0 +1,302 @@
+{
+  "last_updated": "2024-03-08",
+  "games": [
+    {
+      "id": "adopt-me",
+      "name": "Adopt Me!",
+      "developer": "DreamCraft",
+      "category": "Pet Collection",
+      "icon": "🐾",
+      "color": "#FF6B9D",
+      "codes": [
+        {"code": "AM2024FRIEND", "reward": "100 Bucks", "status": "active", "expires": "2024-12-31"},
+        {"code": "ADOPTMEGIFT", "reward": "Standard Cracked Egg", "status": "active", "expires": "2024-12-31"},
+        {"code": "AMTWITTER5K", "reward": "50 Bucks", "status": "expired", "expires": null},
+        {"code": "SUMMER2023", "reward": "Beach Ball Toy", "status": "expired", "expires": null},
+        {"code": "1B1LL1ON", "reward": "Special Reward", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Settings > Codes",
+      "redeem_url": null,
+      "notes": "Codes released during special events and milestones"
+    },
+    {
+      "id": "blox-fruits",
+      "name": "Blox Fruits",
+      "developer": "Gamer Robot Inc",
+      "category": "Adventure/RPG",
+      "icon": "🍎",
+      "color": "#FF4757",
+      "codes": [
+        {"code": "SUB2GAMERROBOT_RESET1", "reward": "Stat Reset", "status": "active", "expires": "2024-12-31"},
+        {"code": "Sub2NoobMaster123", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "Sub2Daigrock", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "Axiore", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "TantaiGaming", "reward": "15 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "STRAWHATMAINE", "reward": "15 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "Sub2OfficialNoobie", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "TheGreatAce", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "SUB2GAMERROBOT_EXP1", "reward": "30 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "JCWK", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "StarcodeHEO", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "Magicbus", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "Sub2Fer999", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "Enyu_is_Pro", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "Sub2CaptainMaui", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "kittgaming", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "Bluxxy", "reward": "20 Minutes 2x EXP", "status": "active", "expires": "2024-12-31"},
+        {"code": "fudd10", "reward": "$1", "status": "active", "expires": "2024-12-31"},
+        {"code": "fudd10_V2", "reward": "$2", "status": "active", "expires": "2024-12-31"},
+        {"code": "BIGNEWS", "reward": "In-Game Title", "status": "expired", "expires": null},
+        {"code": "UPDATE11", "reward": "30 Minutes 2x EXP", "status": "expired", "expires": null},
+        {"code": "UPDATE10", "reward": "Stat Refund", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Menu (cog icon) > Codes",
+      "redeem_url": null,
+      "notes": "Most codes give 2x EXP boost. New codes released with updates."
+    },
+    {
+      "id": "pet-simulator-x",
+      "name": "Pet Simulator X",
+      "developer": "BIG Games Pets",
+      "category": "Pet Collection",
+      "icon": "🐾",
+      "color": "#00D2D3",
+      "codes": [
+        {"code": "404roblox", "reward": "8x Triple Coin Boosts", "status": "active", "expires": "2024-12-31"},
+        {"code": "1MillionFavorites", "reward": "5x Triple Coin Boosts", "status": "expired", "expires": null},
+        {"code": "HappyEaster2023", "reward": "Free Boost", "status": "expired", "expires": null},
+        {"code": "xmas2022", "reward": "Free Boost", "status": "expired", "expires": null},
+        {"code": "Summer2022", "reward": "Free Boost", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Pet icon > Exclusive Shop > Redeem",
+      "redeem_url": null,
+      "notes": "Codes are rare, mostly released during milestones"
+    },
+    {
+      "id": "murder-mystery-2",
+      "name": "Murder Mystery 2",
+      "developer": "Nikilis",
+      "category": "Social/Mystery",
+      "icon": "🔪",
+      "color": "#8B0000",
+      "codes": [
+        {"code": "D3NIS", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "INF3CT3D", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "G003Y", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "R3PT1L3", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "SK00L", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "PATR1CK", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "G1FT3D", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "TH3N3XTL3V3L", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "N30N", "reward": "Free Knife", "status": "expired", "expires": null},
+        {"code": "PR1SM", "reward": "Free Knife", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Inventory > Redeem Code (right side)",
+      "redeem_url": null,
+      "notes": "MM2 rarely releases new codes. Most codes are expired."
+    },
+    {
+      "id": "jailbreak",
+      "name": "Jailbreak",
+      "developer": "Badimo",
+      "category": "Action/Cops & Robbers",
+      "icon": "🚔",
+      "color": "#4169E1",
+      "codes": [
+        {"code": "season10", "reward": "Free Cash", "status": "expired", "expires": null},
+        {"code": "hyperchrome", "reward": "Free Cash", "status": "expired", "expires": null},
+        {"code": "privatejet", "reward": "10,000 Cash", "status": "expired", "expires": null},
+        {"code": "toy", "reward": "Free Reward", "status": "expired", "expires": null},
+        {"code": "fall2022", "reward": "Free Reward", "status": "expired", "expires": null},
+        {"code": "museum", "reward": "Free Reward", "status": "expired", "expires": null},
+        {"code": "winter2022", "reward": "Free Reward", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: ATM/Bank > Enter Code",
+      "redeem_url": null,
+      "notes": "Codes released during updates. Check ATM in-game."
+    },
+    {
+      "id": "shindo-life",
+      "name": "Shindo Life",
+      "developer": "RELL World",
+      "category": "RPG/Naruto Inspired",
+      "icon": "🥷",
+      "color": "#FF6B35",
+      "codes": [
+        {"code": "RELL2024!", "reward": "100 Spins", "status": "active", "expires": "2024-12-31"},
+        {"code": "RELL3V3RLL4R!", "reward": "100 Spins", "status": "active", "expires": "2024-12-31"},
+        {"code": "RELLSeas3!", "reward": "100 Spins", "status": "active", "expires": "2024-12-31"},
+        {"code": "RELLWorld!", "reward": "100 Spins", "status": "active", "expires": "2024-12-31"},
+        {"code": "RELL666!", "reward": "200 Spins", "status": "expired", "expires": null},
+        {"code": "RELL777!", "reward": "200 Spins", "status": "expired", "expires": null},
+        {"code": "RELL888!", "reward": "200 Spins", "status": "expired", "expires": null},
+        {"code": "RELL999!", "reward": "500 Spins", "status": "expired", "expires": null},
+        {"code": "RELL2023!", "reward": "100 Spins", "status": "expired", "expires": null},
+        {"code": "RELL2022!", "reward": "100 Spins", "status": "expired", "expires": null},
+        {"code": "RELL2021!", "reward": "100 Spins", "status": "expired", "expires": null},
+        {"code": "R3LL1", "reward": "50 Spins", "status": "expired", "expires": null},
+        {"code": "R3LL2", "reward": "50 Spins", "status": "expired", "expires": null},
+        {"code": "R3LL3", "reward": "50 Spins", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Edit > YouTube Code",
+      "redeem_url": null,
+      "notes": "Codes give RELL Coins and Spins. New codes every update."
+    },
+    {
+      "id": "anime-adventures",
+      "name": "Anime Adventures",
+      "developer": "Gomu",
+      "category": "Tower Defense/Anime",
+      "icon": "⚔️",
+      "color": "#9B59B6",
+      "codes": [
+        {"code": "SORRYFORSHUTDOWN", "reward": "Gems & Items", "status": "active", "expires": "2024-12-31"},
+        {"code": "NEWYEAR2024", "reward": "500 Gems", "status": "expired", "expires": null},
+        {"code": "MERRYCHRISTMAS", "reward": "500 Gems", "status": "expired", "expires": null},
+        {"code": "KARAKURA2", "reward": "500 Gems", "status": "expired", "expires": null},
+        {"code": "TOURNAMENTUWUFIX", "reward": "Gems", "status": "expired", "expires": null},
+        {"code": "CHALLENGEFIX", "reward": "Gems", "status": "expired", "expires": null},
+        {"code": "RELEASE", "reward": "Gems", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Codes button (left side)",
+      "redeem_url": null,
+      "notes": "Codes give Gems for summoning characters"
+    },
+    {
+      "id": "king-legacy",
+      "name": "King Legacy",
+      "developer": "Venture Lagoons",
+      "category": "RPG/One Piece Inspired",
+      "icon": "👑",
+      "color": "#FFD700",
+      "codes": [
+        {"code": "1MFAV", "reward": "10 Gems", "status": "active", "expires": "2024-12-31"},
+        {"code": "THXFOR1BVISIT", "reward": "10 Gems", "status": "active", "expires": "2024-12-31"},
+        {"code": "650KLIKES", "reward": "Stat Reset", "status": "expired", "expires": null},
+        {"code": "UPDATE4.5", "reward": "5 Gems", "status": "expired", "expires": null},
+        {"code": "UPDATE4.6", "reward": "5 Gems", "status": "expired", "expires": null},
+        {"code": "UPDATE4.7", "reward": "5 Gems", "status": "expired", "expires": null},
+        {"code": "950KLIKES", "reward": "Stat Reset", "status": "expired", "expires": null},
+        {"code": "1MLIKES", "reward": "10 Gems", "status": "expired", "expires": null},
+        {"code": "2BVisits", "reward": "10 Gems", "status": "expired", "expires": null},
+        {"code": "3BVisits", "reward": "10 Gems", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Menu > Settings > Codes",
+      "redeem_url": null,
+      "notes": "Codes give Gems and Stat Resets"
+    },
+    {
+      "id": "grand-piece-online",
+      "name": "Grand Piece Online",
+      "developer": "Grand Quest Games",
+      "category": "RPG/One Piece Inspired",
+      "icon": "⚓",
+      "color": "#1E90FF",
+      "codes": [
+        {"code": "2XEXPFOR1HOUR", "reward": "2x EXP for 1 hour", "status": "expired", "expires": null},
+        {"code": "FREE30KLIKES", "reward": "30k Peli", "status": "expired", "expires": null},
+        {"code": "50KLIKES", "reward": "Free Reward", "status": "expired", "expires": null},
+        {"code": "100KLIKES", "reward": "Free Reward", "status": "expired", "expires": null},
+        {"code": "200KLIKES", "reward": "Free Reward", "status": "expired", "expires": null},
+        {"code": "300KLIKES", "reward": "Free Reward", "status": "expired", "expires": null},
+        {"code": "400KLIKES", "reward": "Free Reward", "status": "expired", "expires": null},
+        {"code": "500KLIKES", "reward": "Free Reward", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Menu > Codes",
+      "redeem_url": null,
+      "notes": "GPO rarely releases codes. Check their Twitter for updates."
+    },
+    {
+      "id": "project-slayers",
+      "name": "Project Slayers",
+      "developer": "Project Slayers Team",
+      "category": "RPG/Demon Slayer Inspired",
+      "icon": "⚔️",
+      "color": "#DC143C",
+      "codes": [
+        {"code": "200KLIKES", "reward": "Free Rewards", "status": "expired", "expires": null},
+        {"code": "300KLIKES", "reward": "Free Rewards", "status": "expired", "expires": null},
+        {"code": "400KLIKES", "reward": "Free Rewards", "status": "expired", "expires": null},
+        {"code": "500KLIKES", "reward": "Free Rewards", "status": "expired", "expires": null},
+        {"code": "600KLIKES", "reward": "Free Rewards", "status": "expired", "expires": null},
+        {"code": "700KLIKES", "reward": "Free Rewards", "status": "expired", "expires": null},
+        {"code": "800KLIKES", "reward": "Free Rewards", "status": "expired", "expires": null},
+        {"code": "900KLIKES", "reward": "Free Rewards", "status": "expired", "expires": null},
+        {"code": "1MLIKES", "reward": "Free Rewards", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "In-game: Menu > Codes",
+      "redeem_url": null,
+      "notes": "New codes released at like milestones. Check their social media."
+    },
+    {
+      "id": "meepcity",
+      "name": "MeepCity",
+      "developer": "alexnewtron",
+      "category": "Social/Hangout",
+      "icon": "🏠",
+      "color": "#FF69B4",
+      "codes": [
+        {"code": "None Available", "reward": "N/A", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "No code system",
+      "redeem_url": null,
+      "notes": "MeepCity does not have a code redemption system."
+    },
+    {
+      "id": "royale-high",
+      "name": "Royale High",
+      "developer": "callmehbob",
+      "category": "Dress Up/Roleplay",
+      "icon": "👗",
+      "color": "#FF1493",
+      "codes": [
+        {"code": "None Available", "reward": "N/A", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "No code system",
+      "redeem_url": null,
+      "notes": "Royale High does not have a code redemption system. Uses gamepasses instead."
+    },
+    {
+      "id": "welcome-to-bloxburg",
+      "name": "Welcome to Bloxburg",
+      "developer": "Coeptus",
+      "category": "Life Simulation",
+      "icon": "🏡",
+      "color": "#87CEEB",
+      "codes": [
+        {"code": "None Available", "reward": "N/A", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "No code system",
+      "redeem_url": null,
+      "notes": "Bloxburg is a paid game (25 Robux) and does not have codes."
+    },
+    {
+      "id": "tower-of-hell",
+      "name": "Tower of Hell",
+      "developer": "Yxcker Development",
+      "category": "Obby/Parkour",
+      "icon": "🏗️",
+      "color": "#FFA500",
+      "codes": [
+        {"code": "None Available", "reward": "N/A", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "No code system",
+      "redeem_url": null,
+      "notes": "Tower of Hell does not have a code redemption system."
+    },
+    {
+      "id": "brookhaven",
+      "name": "Brookhaven",
+      "developer": "Wolfpaq",
+      "category": "Roleplay",
+      "icon": "🏘️",
+      "color": "#32CD32",
+      "codes": [
+        {"code": "None Available", "reward": "N/A", "status": "expired", "expires": null}
+      ],
+      "redeem_method": "No code system",
+      "redeem_url": null,
+      "notes": "Brookhaven does not have a code redemption system. Uses gamepasses."
+    }
+  ]
+}
