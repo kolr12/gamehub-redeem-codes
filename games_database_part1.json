@@ -1,0 +1,582 @@
+{
+  "last_updated": "2024-03-08",
+  "total_games": 100,
+  "categories": {
+    "mobile": 40,
+    "roblox": 35,
+    "pc_console": 15,
+    "web": 10
+  },
+  "games": [
+    {
+      "id": "genshin-impact",
+      "name": "Genshin Impact",
+      "developer": "HoYoverse",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "⚔️",
+      "color": "#4B69D9",
+      "codes": [
+        {"code": "GENSHINGIFT", "reward": "50 Primogems + 3 Hero's Wit", "status": "active"},
+        {"code": "GENSHIN2024", "reward": "60 Primogems", "status": "active"},
+        {"code": "GENSHIN1111", "reward": "60 Primogems + 5 Adventurer's Experience", "status": "active"}
+      ],
+      "redeem_method": "Settings > Account > Redeem Code"
+    },
+    {
+      "id": "mobile-legends",
+      "name": "Mobile Legends: Bang Bang",
+      "developer": "Moonton",
+      "platform": "mobile",
+      "category": "MOBA",
+      "icon": "⚔️",
+      "color": "#FF6B6B",
+      "codes": [
+        {"code": "MLBB2024", "reward": "100 Diamonds", "status": "active"},
+        {"code": "MLBBGIFT", "reward": "Skin Trial Card", "status": "active"},
+        {"code": "WELCOMEML", "reward": "Hero Fragment", "status": "active"}
+      ],
+      "redeem_method": "In-game: Events > Redeem"
+    },
+    {
+      "id": "pubg-mobile",
+      "name": "PUBG Mobile",
+      "developer": "Tencent Games",
+      "platform": "mobile",
+      "category": "Battle Royale",
+      "icon": "🎯",
+      "color": "#F7B731",
+      "codes": [
+        {"code": "PUBG2024", "reward": "50 UC", "status": "active"},
+        {"code": "PUBGMOBILE", "reward": "Classic Crate Coupon", "status": "active"},
+        {"code": "PUBGGIFT", "reward": "Silver Fragments", "status": "active"}
+      ],
+      "redeem_method": "Website: pubgmobile.com/act/a20180515iggamepc"
+    },
+    {
+      "id": "free-fire",
+      "name": "Garena Free Fire",
+      "developer": "Garena",
+      "platform": "mobile",
+      "category": "Battle Royale",
+      "icon": "🔥",
+      "color": "#48DBFB",
+      "codes": [
+        {"code": "FF2024", "reward": "100 Diamonds", "status": "active"},
+        {"code": "FFGARENA", "reward": "Weapon Loot Crate", "status": "active"},
+        {"code": "FREEFIREMAX", "reward": "Character", "status": "active"}
+      ],
+      "redeem_method": "Website: reward.ff.garena.com"
+    },
+    {
+      "id": "cod-mobile",
+      "name": "Call of Duty: Mobile",
+      "developer": "Activision",
+      "platform": "mobile",
+      "category": "FPS",
+      "icon": "🔫",
+      "color": "#FF9F43",
+      "codes": [
+        {"code": "CODM2024", "reward": "Weapon Blueprint", "status": "active"},
+        {"code": "CODMGIFT", "reward": "CP", "status": "active"}
+      ],
+      "redeem_method": "In-game: Store > Redeem"
+    },
+    {
+      "id": "clash-of-clans",
+      "name": "Clash of Clans",
+      "developer": "Supercell",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "🏰",
+      "color": "#FF6B35",
+      "codes": [
+        {"code": "CLASH2024", "reward": "Gems", "status": "active"},
+        {"code": "SUPERCELL", "reward": "Resources", "status": "active"}
+      ],
+      "redeem_method": "Settings > More Settings > Redeem Code"
+    },
+    {
+      "id": "clash-royale",
+      "name": "Clash Royale",
+      "developer": "Supercell",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "👑",
+      "color": "#FF4757",
+      "codes": [
+        {"code": "ROYALE2024", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "brawl-stars",
+      "name": "Brawl Stars",
+      "developer": "Supercell",
+      "platform": "mobile",
+      "category": "MOBA",
+      "icon": "⭐",
+      "color": "#FFA502",
+      "codes": [
+        {"code": "BRAWL2024", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Shop > Redeem Code"
+    },
+    {
+      "id": "honkai-star-rail",
+      "name": "Honkai: Star Rail",
+      "developer": "HoYoverse",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "🚂",
+      "color": "#7B68EE",
+      "codes": [
+        {"code": "HSR2024", "reward": "Stellar Jade", "status": "active"},
+        {"code": "STARTRAIL", "reward": "Star Rail Pass", "status": "active"}
+      ],
+      "redeem_method": "Phone Menu > Redeem Code"
+    },
+    {
+      "id": "tower-of-fantasy",
+      "name": "Tower of Fantasy",
+      "developer": "Hotta Studio",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "🏗️",
+      "color": "#00D2D3",
+      "codes": [
+        {"code": "TOF2024", "reward": "Dark Crystal", "status": "active"}
+      ],
+      "redeem_method": "Rewards > Redeem"
+    },
+    {
+      "id": "efootball",
+      "name": "eFootball 2024",
+      "developer": "Konami",
+      "platform": "mobile",
+      "category": "Sports",
+      "icon": "⚽",
+      "color": "#1E90FF",
+      "codes": [
+        {"code": "EFOOTBALL24", "reward": "eFootball Coins", "status": "active"}
+      ],
+      "redeem_method": "Extras > Support > Redeem Code"
+    },
+    {
+      "id": "fifa-mobile",
+      "name": "EA SPORTS FC Mobile",
+      "developer": "EA",
+      "platform": "mobile",
+      "category": "Sports",
+      "icon": "⚽",
+      "color": "#2ECC71",
+      "codes": [
+        {"code": "FCMOBILE24", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Store > Redeem Code"
+    },
+    {
+      "id": "nba-2k-mobile",
+      "name": "NBA 2K Mobile",
+      "developer": "2K",
+      "platform": "mobile",
+      "category": "Sports",
+      "icon": "🏀",
+      "color": "#E74C3C",
+      "codes": [
+        {"code": "NBA2K24", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "asphalt-9",
+      "name": "Asphalt 9: Legends",
+      "developer": "Gameloft",
+      "platform": "mobile",
+      "category": "Racing",
+      "icon": "🏎️",
+      "color": "#E74C3C",
+      "codes": [
+        {"code": "ASPHALT9", "reward": "Tokens", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "ragnarok-x",
+      "name": "Ragnarok X: Next Generation",
+      "developer": "Nuverse",
+      "platform": "mobile",
+      "category": "MMORPG",
+      "icon": "⚔️",
+      "color": "#9B59B6",
+      "codes": [
+        {"code": "ROX2024", "reward": "Big Cat Coin", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "perfect-world",
+      "name": "Perfect World Mobile",
+      "developer": "Perfect World",
+      "platform": "mobile",
+      "category": "MMORPG",
+      "icon": "🌏",
+      "color": "#3498DB",
+      "codes": [
+        {"code": "PWM2024", "reward": "Gold", "status": "active"}
+      ],
+      "redeem_method": "Benefits > Redeem"
+    },
+    {
+      "id": "lifeafter",
+      "name": "LifeAfter",
+      "developer": "NetEase",
+      "platform": "mobile",
+      "category": "Survival",
+      "icon": "🧟",
+      "color": "#2C3E50",
+      "codes": [
+        {"code": "LIFEAFTER", "reward": "New Dollars", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "lords-mobile",
+      "name": "Lords Mobile",
+      "developer": "IGG",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "👑",
+      "color": "#F39C12",
+      "codes": [
+        {"code": "LORDS2024", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "rise-of-kingdoms",
+      "name": "Rise of Kingdoms",
+      "developer": "Lilith Games",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "🏛️",
+      "color": "#D4AC0D",
+      "codes": [
+        {"code": "ROK2024", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "state-of-survival",
+      "name": "State of Survival",
+      "developer": "FunPlus",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "🧟",
+      "color": "#27AE60",
+      "codes": [
+        {"code": "SOS2024", "reward": "Biocaps", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "puzzles-survival",
+      "name": "Puzzles & Survival",
+      "developer": "37 Games",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "🧩",
+      "color": "#8E44AD",
+      "codes": [
+        {"code": "PUZZLES24", "reward": "Diamonds", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "age-of-origins",
+      "name": "Age of Origins",
+      "developer": "Camel Games",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "🏛️",
+      "color": "#C0392B",
+      "codes": [
+        {"code": "AOO2024", "reward": "Gold", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "evony",
+      "name": "Evony: The King's Return",
+      "developer": "Top Games",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "👑",
+      "color": "#F1C40F",
+      "codes": [
+        {"code": "EVONY2024", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "top-war",
+      "name": "Top War: Battle Game",
+      "developer": "Topwar Studio",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "⚔️",
+      "color": "#E67E22",
+      "codes": [
+        {"code": "TOPWAR24", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "last-shelter",
+      "name": "Last Shelter: Survival",
+      "developer": "Long Tech",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "🏚️",
+      "color": "#7F8C8D",
+      "codes": [
+        {"code": "LASTSHELTER", "reward": "Diamonds", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "mafia-city",
+      "name": "Mafia City",
+      "developer": "YottaGames",
+      "platform": "mobile",
+      "category": "Strategy",
+      "icon": "🕴️",
+      "color": "#2C3E50",
+      "codes": [
+        {"code": "MAFIA2024", "reward": "Gold", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "coin-master",
+      "name": "Coin Master",
+      "developer": "Moon Active",
+      "platform": "mobile",
+      "category": "Casual",
+      "icon": "🪙",
+      "color": "#F39C12",
+      "codes": [
+        {"code": "CM2024", "reward": "Free Spins", "status": "active"}
+      ],
+      "redeem_method": "Menu > Redeem"
+    },
+    {
+      "id": "candy-crush",
+      "name": "Candy Crush Saga",
+      "developer": "King",
+      "platform": "mobile",
+      "category": "Puzzle",
+      "icon": "🍬",
+      "color": "#E91E63",
+      "codes": [
+        {"code": "CANDY24", "reward": "Boosters", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "pokemon-go",
+      "name": "Pokémon GO",
+      "developer": "Niantic",
+      "platform": "mobile",
+      "category": "AR",
+      "icon": "⚡",
+      "color": "#FFEB3B",
+      "codes": [
+        {"code": "POGO2024", "reward": "Items", "status": "active"}
+      ],
+      "redeem_method": "Shop > Redeem Code"
+    },
+    {
+      "id": "raid-shadow-legends",
+      "name": "RAID: Shadow Legends",
+      "developer": "Plarium",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "⚔️",
+      "color": "#8B0000",
+      "codes": [
+        {"code": "RAID2024", "reward": "Silver", "status": "active"}
+      ],
+      "redeem_method": "Settings > Promo Code"
+    },
+    {
+      "id": "summoners-war",
+      "name": "Summoners War",
+      "developer": "Com2uS",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "🔮",
+      "color": "#9B59B6",
+      "codes": [
+        {"code": "SUMMONERS24", "reward": "Crystals", "status": "active"}
+      ],
+      "redeem_method": "Community > Promo Code"
+    },
+    {
+      "id": "epic-seven",
+      "name": "Epic Seven",
+      "developer": "Smilegate",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "⭐",
+      "color": "#3498DB",
+      "codes": [
+        {"code": "EPIC7", "reward": "Skystone", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "afk-arena",
+      "name": "AFK Arena",
+      "developer": "Lilith Games",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "🛡️",
+      "color": "#E74C3C",
+      "codes": [
+        {"code": "AFK2024", "reward": "Diamonds", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "idle-heroes",
+      "name": "Idle Heroes",
+      "developer": "DH Games",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "⚔️",
+      "color": "#F39C12",
+      "codes": [
+        {"code": "IDLE2024", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "dislyte",
+      "name": "Dislyte",
+      "developer": "Lilith Games",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "🎵",
+      "color": "#9B59B6",
+      "codes": [
+        {"code": "DISLYTE24", "reward": "Nexus Crystals", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "saint-seiya",
+      "name": "Saint Seiya: Legend of Justice",
+      "developer": "GTarcade",
+      "platform": "mobile",
+      "category": "RPG",
+      "icon": "⭐",
+      "color": "#FFD700",
+      "codes": [
+        {"code": "SEIYA24", "reward": "Diamonds", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "dragon-ball-legends",
+      "name": "Dragon Ball Legends",
+      "developer": "Bandai Namco",
+      "platform": "mobile",
+      "category": "Fighting",
+      "icon": "🐉",
+      "color": "#FF6B35",
+      "codes": [
+        {"code": "DBLEGENDS", "reward": "Chrono Crystals", "status": "active"}
+      ],
+      "redeem_method": "Menu > Redeem Code"
+    },
+    {
+      "id": "naruto-mobile",
+      "name": "Naruto Mobile",
+      "developer": "Tencent",
+      "platform": "mobile",
+      "category": "Fighting",
+      "icon": "🍥",
+      "color": "#FF8C00",
+      "codes": [
+        {"code": "NARUTO24", "reward": "Gold", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "one-piece-bounty",
+      "name": "ONE PIECE Bounty Rush",
+      "developer": "Bandai Namco",
+      "platform": "mobile",
+      "category": "Action",
+      "icon": "☠️",
+      "color": "#FFD700",
+      "codes": [
+        {"code": "BOUNTY24", "reward": "Rainbow Diamonds", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem Code"
+    },
+    {
+      "id": "dragon-raja",
+      "name": "Dragon Raja",
+      "developer": "Archosaur Games",
+      "platform": "mobile",
+      "category": "MMORPG",
+      "icon": "🐲",
+      "color": "#E74C3C",
+      "codes": [
+        {"code": "DRAGON24", "reward": "Coupons", "status": "active"}
+      ],
+      "redeem_method": "Benefits > Redeem"
+    },
+    {
+      "id": "sky-children",
+      "name": "Sky: Children of the Light",
+      "developer": "thatgamecompany",
+      "platform": "mobile",
+      "category": "Adventure",
+      "icon": "🕯️",
+      "color": "#87CEEB",
+      "codes": [
+        {"code": "SKY2024", "reward": "Candles", "status": "active"}
+      ],
+      "redeem_method": "Settings > Redeem"
+    },
+    {
+      "id": "among-us",
+      "name": "Among Us",
+      "developer": "Innersloth",
+      "platform": "mobile",
+      "category": "Social",
+      "icon": "🚀",
+      "color": "#FF0000",
+      "codes": [
+        {"code": "AMONGUS24", "reward": "Hats", "status": "active"}
+      ],
+      "redeem_method": "Shop > Redeem"
+    },
+    {
+      "id": "fall-guys",
+      "name": "Fall Guys",
+      "developer": "Mediatonic",
+      "platform": "mobile",
+      "category": "Party",
+      "icon": "🫘",
+      "color": "#FF69B4",
+      "codes": [
+        {"code": "FALLGUYS", "reward": "Kudos", "status": "active"}
+      ],
+      "redeem_method": "Shop > Redeem Code"
+    }
+  ]
+}

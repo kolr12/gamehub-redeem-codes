@@ -1,0 +1,395 @@
+{
+  "last_updated": "2024-03-08",
+  "games": [
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "developer": "Epic Games",
+      "platform": "pc_console",
+      "category": "Battle Royale",
+      "icon": "🔫",
+      "color": "#9B59B6",
+      "codes": [
+        {"code": "FORTNITE2024", "reward": "V-Bucks", "status": "active"}
+      ],
+      "redeem_method": "Epic Games Store → Redeem Code"
+    },
+    {
+      "id": "valorant",
+      "name": "Valorant",
+      "developer": "Riot Games",
+      "platform": "pc_console",
+      "category": "FPS",
+      "icon": "🎯",
+      "color": "#FF4655",
+      "codes": [
+        {"code": "VALORANT24", "reward": "VP", "status": "active"}
+      ],
+      "redeem_method": "Store → Redeem Code"
+    },
+    {
+      "id": "league-of-legends",
+      "name": "League of Legends",
+      "developer": "Riot Games",
+      "platform": "pc_console",
+      "category": "MOBA",
+      "icon": "⚔️",
+      "color": "#C89B3C",
+      "codes": [
+        {"code": "LOL2024", "reward": "RP", "status": "active"}
+      ],
+      "redeem_method": "Store → Redeem Code"
+    },
+    {
+      "id": "cs2",
+      "name": "Counter-Strike 2",
+      "developer": "Valve",
+      "platform": "pc_console",
+      "category": "FPS",
+      "icon": "🔫",
+      "color": "#FFA500",
+      "codes": [
+        {"code": "CS2CASE", "reward": "Case Key", "status": "active"}
+      ],
+      "redeem_method": "Steam → Games → Activate Product"
+    },
+    {
+      "id": "dota-2",
+      "name": "Dota 2",
+      "developer": "Valve",
+      "platform": "pc_console",
+      "category": "MOBA",
+      "icon": "🛡️",
+      "color": "#B71C1C",
+      "codes": [
+        {"code": "DOTA2024", "reward": "Treasure Key", "status": "active"}
+      ],
+      "redeem_method": "Steam → Games → Activate Product"
+    },
+    {
+      "id": "apex-legends",
+      "name": "Apex Legends",
+      "developer": "Respawn",
+      "platform": "pc_console",
+      "category": "Battle Royale",
+      "icon": "🏆",
+      "color": "#DA291C",
+      "codes": [
+        {"code": "APEX2024", "reward": "Apex Coins", "status": "active"}
+      ],
+      "redeem_method": "Store → Redeem Code"
+    },
+    {
+      "id": "overwatch-2",
+      "name": "Overwatch 2",
+      "developer": "Blizzard",
+      "platform": "pc_console",
+      "category": "FPS",
+      "icon": "⚡",
+      "color": "#F99E1A",
+      "codes": [
+        {"code": "OW22024", "reward": "Overwatch Coins", "status": "active"}
+      ],
+      "redeem_method": "Battle.net → Account → Redeem Code"
+    },
+    {
+      "id": "rocket-league",
+      "name": "Rocket League",
+      "developer": "Psyonix",
+      "platform": "pc_console",
+      "category": "Sports",
+      "icon": "🚗",
+      "color": "#0070D1",
+      "codes": [
+        {"code": "ROCKET24", "reward": "Credits", "status": "active"}
+      ],
+      "redeem_method": "Store → Redeem Code"
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "developer": "Mojang",
+      "platform": "pc_console",
+      "category": "Sandbox",
+      "icon": "⛏️",
+      "color": "#5D8C3A",
+      "codes": [
+        {"code": "MINECRAFT24", "reward": "Minecoins", "status": "active"}
+      ],
+      "redeem_method": "Minecraft Marketplace → Redeem"
+    },
+    {
+      "id": "terraria",
+      "name": "Terraria",
+      "developer": "Re-Logic",
+      "platform": "pc_console",
+      "category": "Sandbox",
+      "icon": "🌳",
+      "color": "#8B4513",
+      "codes": [
+        {"code": "TERRARIA24", "reward": "Items", "status": "active"}
+      ],
+      "redeem_method": "Main Menu → Redeem"
+    },
+    {
+      "id": "stardew-valley",
+      "name": "Stardew Valley",
+      "developer": "ConcernedApe",
+      "platform": "pc_console",
+      "category": "Simulation",
+      "icon": "🌾",
+      "color": "#FF6B9D",
+      "codes": [
+        {"code": "STARDEW24", "reward": "Items", "status": "active"}
+      ],
+      "redeem_method": "Steam → Games → Activate Product"
+    },
+    {
+      "id": "warframe",
+      "name": "Warframe",
+      "developer": "Digital Extremes",
+      "platform": "pc_console",
+      "category": "Action",
+      "icon": "🚀",
+      "color": "#00BFFF",
+      "codes": [
+        {"code": "WARFRAME24", "reward": "Platinum", "status": "active"}
+      ],
+      "redeem_method": "Market → Redeem Code"
+    },
+    {
+      "id": "destiny-2",
+      "name": "Destiny 2",
+      "developer": "Bungie",
+      "platform": "pc_console",
+      "category": "FPS",
+      "icon": "🌌",
+      "color": "#F5F5F5",
+      "codes": [
+        {"code": "DESTINY24", "reward": "Silver", "status": "active"}
+      ],
+      "redeem_method": "Store → Redeem Code"
+    },
+    {
+      "id": "gta-v",
+      "name": "Grand Theft Auto V",
+      "developer": "Rockstar",
+      "platform": "pc_console",
+      "category": "Action",
+      "icon": "🚗",
+      "color": "#2E8B57",
+      "codes": [
+        {"code": "GTA5ONLINE", "reward": "Shark Card", "status": "active"}
+      ],
+      "redeem_method": "Rockstar Social Club → Redeem"
+    },
+    {
+      "id": "sea-of-thieves",
+      "name": "Sea of Thieves",
+      "developer": "Rare",
+      "platform": "pc_console",
+      "category": "Adventure",
+      "icon": "🏴‍☠️",
+      "color": "#006994",
+      "codes": [
+        {"code": "PIRATE24", "reward": "Ancient Coins", "status": "active"}
+      ],
+      "redeem_method": "Microsoft Store → Redeem"
+    },
+    {
+      "id": "genshin-impact-pc",
+      "name": "Genshin Impact (PC)",
+      "developer": "HoYoverse",
+      "platform": "pc_console",
+      "category": "RPG",
+      "icon": "⚔️",
+      "color": "#4B69D9",
+      "codes": [
+        {"code": "GENSHINPC", "reward": "Primogems", "status": "active"}
+      ],
+      "redeem_method": "Settings → Account → Redeem Code"
+    },
+    {
+      "id": "honkai-star-rail-pc",
+      "name": "Honkai: Star Rail (PC)",
+      "developer": "HoYoverse",
+      "platform": "pc_console",
+      "category": "RPG",
+      "icon": "🚂",
+      "color": "#7B68EE",
+      "codes": [
+        {"code": "HSRPC24", "reward": "Stellar Jade", "status": "active"}
+      ],
+      "redeem_method": "Phone Menu → Redeem Code"
+    },
+    {
+      "id": "roblox-pc",
+      "name": "Roblox (PC)",
+      "developer": "Roblox Corp",
+      "platform": "pc_console",
+      "category": "Platform",
+      "icon": "🟥",
+      "color": "#FF0000",
+      "codes": [
+        {"code": "ROBLOX2024", "reward": "Robux", "status": "active"}
+      ],
+      "redeem_method": "Roblox.com → Gift Cards → Redeem"
+    },
+    {
+      "id": "world-of-warcraft",
+      "name": "World of Warcraft",
+      "developer": "Blizzard",
+      "platform": "pc_console",
+      "category": "MMORPG",
+      "icon": "⚔️",
+      "color": "#C79C6E",
+      "codes": [
+        {"code": "WOW2024", "reward": "Game Time", "status": "active"}
+      ],
+      "redeem_method": "Battle.net → Account → Redeem Code"
+    },
+    {
+      "id": "elden-ring",
+      "name": "Elden Ring",
+      "developer": "FromSoftware",
+      "platform": "pc_console",
+      "category": "RPG",
+      "icon": "💍",
+      "color": "#FFD700",
+      "codes": [
+        {"code": "ELDEN24", "reward": "DLC", "status": "active"}
+      ],
+      "redeem_method": "Steam → Games → Activate Product"
+    },
+    {
+      "id": "slither-io",
+      "name": "Slither.io",
+      "developer": "Lowtech Studios",
+      "platform": "web",
+      "category": "Arcade",
+      "icon": "🐍",
+      "color": "#8BC34A",
+      "codes": [
+        {"code": "SLITHER24", "reward": "Skins", "status": "active"}
+      ],
+      "redeem_method": "Settings → Redeem"
+    },
+    {
+      "id": "agar-io",
+      "name": "Agar.io",
+      "developer": "Miniclip",
+      "platform": "web",
+      "category": "Arcade",
+      "icon": "🔵",
+      "color": "#2196F3",
+      "codes": [
+        {"code": "AGAR24", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Shop → Redeem"
+    },
+    {
+      "id": "diep-io",
+      "name": "Diep.io",
+      "developer": "Matheus Valadares",
+      "platform": "web",
+      "category": "Shooter",
+      "icon": "🔫",
+      "color": "#FF5722",
+      "codes": [
+        {"code": "DIEP24", "reward": "Upgrades", "status": "active"}
+      ],
+      "redeem_method": "Settings → Redeem"
+    },
+    {
+      "id": "krunker-io",
+      "name": "Krunker.io",
+      "developer": "Yendis Entertainment",
+      "platform": "web",
+      "category": "FPS",
+      "icon": "🎯",
+      "color": "#9C27B0",
+      "codes": [
+        {"code": "KRUNKER24", "reward": "KR", "status": "active"}
+      ],
+      "redeem_method": "Shop → Redeem Code"
+    },
+    {
+      "id": "surviv-io",
+      "name": "Surviv.io",
+      "developer": "Kongregate",
+      "platform": "web",
+      "category": "Battle Royale",
+      "icon": "🏆",
+      "color": "#4CAF50",
+      "codes": [
+        {"code": "SURVIV24", "reward": "Items", "status": "active"}
+      ],
+      "redeem_method": "Settings → Redeem"
+    },
+    {
+      "id": "zombs-royale",
+      "name": "ZombsRoyale.io",
+      "developer": "End Game",
+      "platform": "web",
+      "category": "Battle Royale",
+      "icon": "🧟",
+      "color": "#795548",
+      "codes": [
+        {"code": "ZOMBS24", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Shop → Redeem"
+    },
+    {
+      "id": "moomoo-io",
+      "name": "MooMoo.io",
+      "developer": "Yendis Entertainment",
+      "platform": "web",
+      "category": "Survival",
+      "icon": "🐄",
+      "color": "#8D6E63",
+      "codes": [
+        {"code": "MOO24", "reward": "Resources", "status": "active"}
+      ],
+      "redeem_method": "Settings → Redeem"
+    },
+    {
+      "id": "starve-io",
+      "name": "Starve.io",
+      "developer": "Yendis Entertainment",
+      "platform": "web",
+      "category": "Survival",
+      "icon": "❄️",
+      "color": "#00BCD4",
+      "codes": [
+        {"code": "STARVE24", "reward": "Items", "status": "active"}
+      ],
+      "redeem_method": "Settings → Redeem"
+    },
+    {
+      "id": "wings-io",
+      "name": "Wings.io",
+      "developer": "Profusion Studios",
+      "platform": "web",
+      "category": "Arcade",
+      "icon": "✈️",
+      "color": "#03A9F4",
+      "codes": [
+        {"code": "WINGS24", "reward": "Skins", "status": "active"}
+      ],
+      "redeem_method": "Settings → Redeem"
+    },
+    {
+      "id": "limax-io",
+      "name": "Limax.io",
+      "developer": "Limax.io",
+      "platform": "web",
+      "category": "Arcade",
+      "icon": "🐌",
+      "color": "#E91E63",
+      "codes": [
+        {"code": "LIMAX24", "reward": "Boosts", "status": "active"}
+      ],
+      "redeem_method": "Settings → Redeem"
+    }
+  ]
+}

@@ -512,3 +512,213 @@ window.addEventListener('scroll', () => {
 
 // Performance: Passive scroll listeners
 window.addEventListener('scroll', () => {}, { passive: true });
+
+/**
+ * Games Category Filter
+ */
+function initGamesCategoryFilter() {
+    const tabs = document.querySelectorAll('.category-tab');
+    const gameCards = document.querySelectorAll('.game-card[data-category]');
+    
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            
+            const category = tab.dataset.category;
+            
+            gameCards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'scale(1)';
+                    }, 10);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'scale(0.9)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
+            });
+        });
+    });
+}
+
+/**
+ * Games Modal
+ */
+function initGamesModal() {
+    const viewAllBtn = document.getElementById('viewAllGames');
+    const modal = document.getElementById('gamesModal');
+    const closeBtn = document.getElementById('closeGamesModal');
+    const gamesList = document.getElementById('allGamesList');
+    const searchInput = document.getElementById('gamesSearchInput');
+    
+    // Sample 100 games data
+    const allGames = [
+        { name: "Genshin Impact", category: "Mobile", codes: 3, icon: "⚔️", color: "#4B69D9" },
+        { name: "Mobile Legends", category: "Mobile", codes: 3, icon: "⚔️", color: "#FF6B6B" },
+        { name: "PUBG Mobile", category: "Mobile", codes: 3, icon: "🎯", color: "#F7B731" },
+        { name: "Free Fire", category: "Mobile", codes: 3, icon: "🔥", color: "#48DBFB" },
+        { name: "COD Mobile", category: "Mobile", codes: 2, icon: "🔫", color: "#FF9F43" },
+        { name: "Clash of Clans", category: "Mobile", codes: 2, icon: "🏰", color: "#FF6B35" },
+        { name: "Clash Royale", category: "Mobile", codes: 1, icon: "👑", color: "#FF4757" },
+        { name: "Brawl Stars", category: "Mobile", codes: 1, icon: "⭐", color: "#FFA502" },
+        { name: "Honkai Star Rail", category: "Mobile", codes: 2, icon: "🚂", color: "#7B68EE" },
+        { name: "Tower of Fantasy", category: "Mobile", codes: 1, icon: "🏗️", color: "#00D2D3" },
+        { name: "eFootball 2024", category: "Mobile", codes: 1, icon: "⚽", color: "#1E90FF" },
+        { name: "EA FC Mobile", category: "Mobile", codes: 1, icon: "⚽", color: "#2ECC71" },
+        { name: "NBA 2K Mobile", category: "Mobile", codes: 1, icon: "🏀", color: "#E74C3C" },
+        { name: "Asphalt 9", category: "Mobile", codes: 1, icon: "🏎️", color: "#E74C3C" },
+        { name: "Ragnarok X", category: "Mobile", codes: 1, icon: "⚔️", color: "#9B59B6" },
+        { name: "Perfect World", category: "Mobile", codes: 1, icon: "🌏", color: "#3498DB" },
+        { name: "LifeAfter", category: "Mobile", codes: 1, icon: "🧟", color: "#2C3E50" },
+        { name: "Lords Mobile", category: "Mobile", codes: 1, icon: "👑", color: "#F39C12" },
+        { name: "Rise of Kingdoms", category: "Mobile", codes: 1, icon: "🏛️", color: "#D4AC0D" },
+        { name: "State of Survival", category: "Mobile", codes: 1, icon: "🧟", color: "#27AE60" },
+        { name: "Puzzles & Survival", category: "Mobile", codes: 1, icon: "🧩", color: "#8E44AD" },
+        { name: "Age of Origins", category: "Mobile", codes: 1, icon: "🏛️", color: "#C0392B" },
+        { name: "Evony", category: "Mobile", codes: 1, icon: "👑", color: "#F1C40F" },
+        { name: "Top War", category: "Mobile", codes: 1, icon: "⚔️", color: "#E67E22" },
+        { name: "Last Shelter", category: "Mobile", codes: 1, icon: "🏚️", color: "#7F8C8D" },
+        { name: "Mafia City", category: "Mobile", codes: 1, icon: "🕴️", color: "#2C3E50" },
+        { name: "Coin Master", category: "Mobile", codes: 1, icon: "🪙", color: "#F39C12" },
+        { name: "Candy Crush", category: "Mobile", codes: 1, icon: "🍬", color: "#E91E63" },
+        { name: "Pokémon GO", category: "Mobile", codes: 1, icon: "⚡", color: "#FFEB3B" },
+        { name: "RAID Shadow Legends", category: "Mobile", codes: 1, icon: "⚔️", color: "#8B0000" },
+        { name: "Summoners War", category: "Mobile", codes: 1, icon: "🔮", color: "#9B59B6" },
+        { name: "Epic Seven", category: "Mobile", codes: 1, icon: "⭐", color: "#3498DB" },
+        { name: "AFK Arena", category: "Mobile", codes: 1, icon: "🛡️", color: "#E74C3C" },
+        { name: "Idle Heroes", category: "Mobile", codes: 1, icon: "⚔️", color: "#F39C12" },
+        { name: "Dislyte", category: "Mobile", codes: 1, icon: "🎵", color: "#9B59B6" },
+        { name: "Saint Seiya", category: "Mobile", codes: 1, icon: "⭐", color: "#FFD700" },
+        { name: "Dragon Ball Legends", category: "Mobile", codes: 1, icon: "🐉", color: "#FF6B35" },
+        { name: "Naruto Mobile", category: "Mobile", codes: 1, icon: "🍥", color: "#FF8C00" },
+        { name: "One Piece Bounty", category: "Mobile", codes: 1, icon: "☠️", color: "#FFD700" },
+        { name: "Dragon Raja", category: "Mobile", codes: 1, icon: "🐲", color: "#E74C3C" },
+        { name: "Sky: Children", category: "Mobile", codes: 1, icon: "🕯️", color: "#87CEEB" },
+        { name: "Among Us", category: "Mobile", codes: 1, icon: "🚀", color: "#FF0000" },
+        { name: "Fall Guys", category: "Mobile", codes: 1, icon: "🫘", color: "#FF69B4" },
+        { name: "Blox Fruits", category: "Roblox", codes: 19, icon: "🍎", color: "#FF4757" },
+        { name: "Shindo Life", category: "Roblox", codes: 4, icon: "🥷", color: "#FF6B35" },
+        { name: "Adopt Me!", category: "Roblox", codes: 2, icon: "🐾", color: "#FF6B9D" },
+        { name: "Anime Adventures", category: "Roblox", codes: 1, icon: "⚔️", color: "#9B59B6" },
+        { name: "King Legacy", category: "Roblox", codes: 2, icon: "👑", color: "#FFD700" },
+        { name: "Pet Simulator X", category: "Roblox", codes: 1, icon: "🐾", color: "#00D2D3" },
+        { name: "Murder Mystery 2", category: "Roblox", codes: 0, icon: "🔪", color: "#8B0000" },
+        { name: "Jailbreak", category: "Roblox", codes: 1, icon: "🚔", color: "#4169E1" },
+        { name: "MeepCity", category: "Roblox", codes: 0, icon: "🏠", color: "#FF69B4" },
+        { name: "Royale High", category: "Roblox", codes: 0, icon: "👗", color: "#FF1493" },
+        { name: "Welcome to Bloxburg", category: "Roblox", codes: 0, icon: "🏡", color: "#87CEEB" },
+        { name: "Tower of Hell", category: "Roblox", codes: 0, icon: "🏗️", color: "#FFA500" },
+        { name: "Brookhaven", category: "Roblox", codes: 0, icon: "🏘️", color: "#32CD32" },
+        { name: "Project Slayers", category: "Roblox", codes: 1, icon: "⚔️", color: "#DC143C" },
+        { name: "Grand Piece Online", category: "Roblox", codes: 1, icon: "⚓", color: "#1E90FF" },
+        { name: "Anime Fighting Sim", category: "Roblox", codes: 1, icon: "👊", color: "#FF6347" },
+        { name: "Anime Dimensions", category: "Roblox", codes: 1, icon: "🌌", color: "#9370DB" },
+        { name: "All Star Tower Defense", category: "Roblox", codes: 1, icon: "⭐", color: "#FFD700" },
+        { name: "Bubble Gum Sim", category: "Roblox", codes: 1, icon: "🫧", color: "#FF69B4" },
+        { name: "Mining Simulator 2", category: "Roblox", codes: 1, icon: "⛏️", color: "#8B4513" },
+        { name: "Tower Defense Sim", category: "Roblox", codes: 1, icon: "🗼", color: "#228B22" },
+        { name: "BedWars", category: "Roblox", codes: 1, icon: "🛏️", color: "#FF4500" },
+        { name: "Arsenal", category: "Roblox", codes: 1, icon: "🔫", color: "#DC143C" },
+        { name: "Phantom Forces", category: "Roblox", codes: 1, icon: "🎯", color: "#2F4F4F" },
+        { name: "Livetopia", category: "Roblox", codes: 1, icon: "🏙️", color: "#00CED1" },
+        { name: "Club Roblox", category: "Roblox", codes: 1, icon: "🎪", color: "#FF1493" },
+        { name: "Work at Pizza Place", category: "Roblox", codes: 1, icon: "🍕", color: "#FFA500" },
+        { name: "Natural Disaster", category: "Roblox", codes: 0, icon: "🌪️", color: "#4682B4" },
+        { name: "Epic Minigames", category: "Roblox", codes: 1, icon: "🎮", color: "#9932CC" },
+        { name: "Speed Run 4", category: "Roblox", codes: 0, icon: "🏃", color: "#00FF00" },
+        { name: "Theme Park Tycoon", category: "Roblox", codes: 1, icon: "🎢", color: "#FF69B4" },
+        { name: "Ninja Legends", category: "Roblox", codes: 1, icon: "🥷", color: "#800080" },
+        { name: "Saber Simulator", category: "Roblox", codes: 1, icon: "⚔️", color: "#C0C0C0" },
+        { name: "Magnet Simulator", category: "Roblox", codes: 1, icon: "🧲", color: "#FF0000" },
+        { name: "Ice Cream Simulator", category: "Roblox", codes: 1, icon: "🍦", color: "#FFB6C1" },
+        { name: "Zombie Attack", category: "Roblox", codes: 1, icon: "🧟", color: "#556B2F" },
+        { name: "Fortnite", category: "PC", codes: 1, icon: "🔫", color: "#9B59B6" },
+        { name: "Valorant", category: "PC", codes: 1, icon: "🎯", color: "#FF4655" },
+        { name: "League of Legends", category: "PC", codes: 1, icon: "⚔️", color: "#C89B3C" },
+        { name: "Counter-Strike 2", category: "PC", codes: 1, icon: "🔫", color: "#FFA500" },
+        { name: "Dota 2", category: "PC", codes: 1, icon: "🛡️", color: "#B71C1C" },
+        { name: "Apex Legends", category: "PC", codes: 1, icon: "🏆", color: "#DA291C" },
+        { name: "Overwatch 2", category: "PC", codes: 1, icon: "⚡", color: "#F99E1A" },
+        { name: "Rocket League", category: "PC", codes: 1, icon: "🚗", color: "#0070D1" },
+        { name: "Minecraft", category: "PC", codes: 1, icon: "⛏️", color: "#5D8C3A" },
+        { name: "Terraria", category: "PC", codes: 1, icon: "🌳", color: "#8B4513" },
+        { name: "Stardew Valley", category: "PC", codes: 1, icon: "🌾", color: "#FF6B9D" },
+        { name: "Warframe", category: "PC", codes: 1, icon: "🚀", color: "#00BFFF" },
+        { name: "Destiny 2", category: "PC", codes: 1, icon: "🌌", color: "#F5F5F5" },
+        { name: "GTA V", category: "PC", codes: 1, icon: "🚗", color: "#2E8B57" },
+        { name: "Sea of Thieves", category: "PC", codes: 1, icon: "🏴‍☠️", color: "#006994" },
+        { name: "World of Warcraft", category: "PC", codes: 1, icon: "⚔️", color: "#C79C6E" },
+        { name: "Elden Ring", category: "PC", codes: 1, icon: "💍", color: "#FFD700" },
+        { name: "Slither.io", category: "Web", codes: 1, icon: "🐍", color: "#8BC34A" },
+        { name: "Agar.io", category: "Web", codes: 1, icon: "🔵", color: "#2196F3" },
+        { name: "Diep.io", category: "Web", codes: 1, icon: "🔫", color: "#FF5722" },
+        { name: "Krunker.io", category: "Web", codes: 1, icon: "🎯", color: "#9C27B0" },
+        { name: "Surviv.io", category: "Web", codes: 1, icon: "🏆", color: "#4CAF50" },
+        { name: "ZombsRoyale.io", category: "Web", codes: 1, icon: "🧟", color: "#795548" },
+        { name: "MooMoo.io", category: "Web", codes: 1, icon: "🐄", color: "#8D6E63" },
+        { name: "Starve.io", category: "Web", codes: 1, icon: "❄️", color: "#00BCD4" },
+        { name: "Wings.io", category: "Web", codes: 1, icon: "✈️", color: "#03A9F4" },
+        { name: "Limax.io", category: "Web", codes: 1, icon: "🐌", color: "#E91E63" }
+    ];
+    
+    function renderGames(gamesToRender) {
+        gamesList.innerHTML = gamesToRender.map(game => `
+            <div class="games-list-item">
+                <div class="games-list-icon" style="background: ${game.color}20; color: ${game.color}">
+                    ${game.icon}
+                </div>
+                <div class="games-list-info">
+                    <h4>${game.name}</h4>
+                    <p>${game.category} Game</p>
+                </div>
+                <span class="games-list-codes">${game.codes} Codes</span>
+            </div>
+        `).join('');
+    }
+    
+    if (viewAllBtn) {
+        viewAllBtn.addEventListener('click', () => {
+            renderGames(allGames);
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+    }
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    }
+    
+    if (modal) {
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+    }
+    
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = allGames.filter(game => 
+                game.name.toLowerCase().includes(query) ||
+                game.category.toLowerCase().includes(query)
+            );
+            renderGames(filtered);
+        });
+    }
+}
+
+// Initialize new functions
+document.addEventListener('DOMContentLoaded', () => {
+    initGamesCategoryFilter();
+    initGamesModal();
+});

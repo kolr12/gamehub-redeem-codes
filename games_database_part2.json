@@ -1,0 +1,486 @@
+{
+  "last_updated": "2024-03-08",
+  "games": [
+    {
+      "id": "blox-fruits",
+      "name": "Blox Fruits",
+      "developer": "Gamer Robot Inc",
+      "platform": "roblox",
+      "category": "Adventure/RPG",
+      "icon": "🍎",
+      "color": "#FF4757",
+      "codes": [
+        {"code": "SUB2GAMERROBOT_RESET1", "reward": "Stat Reset", "status": "active"},
+        {"code": "Sub2NoobMaster123", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "Sub2Daigrock", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "Axiore", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "TantaiGaming", "reward": "15m 2x EXP", "status": "active"},
+        {"code": "STRAWHATMAINE", "reward": "15m 2x EXP", "status": "active"},
+        {"code": "Sub2OfficialNoobie", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "TheGreatAce", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "SUB2GAMERROBOT_EXP1", "reward": "30m 2x EXP", "status": "active"},
+        {"code": "JCWK", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "StarcodeHEO", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "Magicbus", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "Sub2Fer999", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "Enyu_is_Pro", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "Sub2CaptainMaui", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "kittgaming", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "Bluxxy", "reward": "20m 2x EXP", "status": "active"},
+        {"code": "fudd10", "reward": "$1", "status": "active"},
+        {"code": "fudd10_V2", "reward": "$2", "status": "active"}
+      ],
+      "redeem_method": "Menu (⚙️) → Codes"
+    },
+    {
+      "id": "shindo-life",
+      "name": "Shindo Life",
+      "developer": "RELL World",
+      "platform": "roblox",
+      "category": "RPG/Naruto",
+      "icon": "🥷",
+      "color": "#FF6B35",
+      "codes": [
+        {"code": "RELL2024!", "reward": "100 Spins", "status": "active"},
+        {"code": "RELL3V3RLL4R!", "reward": "100 Spins", "status": "active"},
+        {"code": "RELLSeas3!", "reward": "100 Spins", "status": "active"},
+        {"code": "RELLWorld!", "reward": "100 Spins", "status": "active"}
+      ],
+      "redeem_method": "Edit → YouTube Code"
+    },
+    {
+      "id": "adopt-me",
+      "name": "Adopt Me!",
+      "developer": "DreamCraft",
+      "platform": "roblox",
+      "category": "Pet Collection",
+      "icon": "🐾",
+      "color": "#FF6B9D",
+      "codes": [
+        {"code": "AM2024FRIEND", "reward": "100 Bucks", "status": "active"},
+        {"code": "ADOPTMEGIFT", "reward": "Cracked Egg", "status": "active"}
+      ],
+      "redeem_method": "Settings → Codes"
+    },
+    {
+      "id": "anime-adventures",
+      "name": "Anime Adventures",
+      "developer": "Gomu",
+      "platform": "roblox",
+      "category": "Tower Defense",
+      "icon": "⚔️",
+      "color": "#9B59B6",
+      "codes": [
+        {"code": "SORRYFORSHUTDOWN", "reward": "Gems & Items", "status": "active"}
+      ],
+      "redeem_method": "Codes button (left side)"
+    },
+    {
+      "id": "king-legacy",
+      "name": "King Legacy",
+      "developer": "Venture Lagoons",
+      "platform": "roblox",
+      "category": "RPG/One Piece",
+      "icon": "👑",
+      "color": "#FFD700",
+      "codes": [
+        {"code": "1MFAV", "reward": "10 Gems", "status": "active"},
+        {"code": "THXFOR1BVISIT", "reward": "10 Gems", "status": "active"}
+      ],
+      "redeem_method": "Menu → Settings → Codes"
+    },
+    {
+      "id": "pet-simulator-x",
+      "name": "Pet Simulator X",
+      "developer": "BIG Games Pets",
+      "platform": "roblox",
+      "category": "Pet Collection",
+      "icon": "🐾",
+      "color": "#00D2D3",
+      "codes": [
+        {"code": "404roblox", "reward": "8x Triple Coin", "status": "active"}
+      ],
+      "redeem_method": "Pet → Exclusive Shop → Redeem"
+    },
+    {
+      "id": "murder-mystery-2",
+      "name": "Murder Mystery 2",
+      "developer": "Nikilis",
+      "platform": "roblox",
+      "category": "Social/Mystery",
+      "icon": "🔪",
+      "color": "#8B0000",
+      "codes": [
+        {"code": "Currently No Active Codes", "reward": "N/A", "status": "expired"}
+      ],
+      "redeem_method": "Inventory → Redeem Code"
+    },
+    {
+      "id": "jailbreak",
+      "name": "Jailbreak",
+      "developer": "Badimo",
+      "platform": "roblox",
+      "category": "Action",
+      "icon": "🚔",
+      "color": "#4169E1",
+      "codes": [
+        {"code": "Check ATM in-game", "reward": "Cash", "status": "active"}
+      ],
+      "redeem_method": "ATM/Bank → Enter Code"
+    },
+    {
+      "id": "meepcity",
+      "name": "MeepCity",
+      "developer": "alexnewtron",
+      "platform": "roblox",
+      "category": "Social",
+      "icon": "🏠",
+      "color": "#FF69B4",
+      "codes": [],
+      "redeem_method": "No code system",
+      "notes": "No redemption system"
+    },
+    {
+      "id": "royale-high",
+      "name": "Royale High",
+      "developer": "callmehbob",
+      "platform": "roblox",
+      "category": "Dress Up",
+      "icon": "👗",
+      "color": "#FF1493",
+      "codes": [],
+      "redeem_method": "No code system",
+      "notes": "Uses gamepasses"
+    },
+    {
+      "id": "welcome-to-bloxburg",
+      "name": "Welcome to Bloxburg",
+      "developer": "Coeptus",
+      "platform": "roblox",
+      "category": "Life Sim",
+      "icon": "🏡",
+      "color": "#87CEEB",
+      "codes": [],
+      "redeem_method": "No code system",
+      "notes": "Paid game (25 Robux)"
+    },
+    {
+      "id": "tower-of-hell",
+      "name": "Tower of Hell",
+      "developer": "Yxcker",
+      "platform": "roblox",
+      "category": "Obby",
+      "icon": "🏗️",
+      "color": "#FFA500",
+      "codes": [],
+      "redeem_method": "No code system"
+    },
+    {
+      "id": "brookhaven",
+      "name": "Brookhaven",
+      "developer": "Wolfpaq",
+      "platform": "roblox",
+      "category": "Roleplay",
+      "icon": "🏘️",
+      "color": "#32CD32",
+      "codes": [],
+      "redeem_method": "No code system",
+      "notes": "Uses gamepasses"
+    },
+    {
+      "id": "project-slayers",
+      "name": "Project Slayers",
+      "developer": "Project Slayers Team",
+      "platform": "roblox",
+      "category": "RPG/Demon Slayer",
+      "icon": "⚔️",
+      "color": "#DC143C",
+      "codes": [
+        {"code": "Check social media", "reward": "Various", "status": "active"}
+      ],
+      "redeem_method": "Menu → Codes"
+    },
+    {
+      "id": "grand-piece-online",
+      "name": "Grand Piece Online",
+      "developer": "Grand Quest Games",
+      "platform": "roblox",
+      "category": "RPG/One Piece",
+      "icon": "⚓",
+      "color": "#1E90FF",
+      "codes": [
+        {"code": "Check Twitter", "reward": "Various", "status": "active"}
+      ],
+      "redeem_method": "Menu → Codes"
+    },
+    {
+      "id": "anime-fighting-simulator",
+      "name": "Anime Fighting Simulator",
+      "developer": "BlockZone",
+      "platform": "roblox",
+      "category": "Fighting",
+      "icon": "👊",
+      "color": "#FF6347",
+      "codes": [
+        {"code": "AFS2024", "reward": "Chikara Shards", "status": "active"}
+      ],
+      "redeem_method": "Twitter icon → Enter Code"
+    },
+    {
+      "id": "anime-dimensions",
+      "name": "Anime Dimensions",
+      "developer": "Albatross Games",
+      "platform": "roblox",
+      "category": "RPG",
+      "icon": "🌌",
+      "color": "#9370DB",
+      "codes": [
+        {"code": "DIMENSIONS", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Menu → Codes"
+    },
+    {
+      "id": "all-star-tower-defense",
+      "name": "All Star Tower Defense",
+      "developer": "Top Down Games",
+      "platform": "roblox",
+      "category": "Tower Defense",
+      "icon": "⭐",
+      "color": "#FFD700",
+      "codes": [
+        {"code": "ASTD2024", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings → Codes"
+    },
+    {
+      "id": "bubble-gum-simulator",
+      "name": "Bubble Gum Simulator",
+      "developer": "Rumble Studios",
+      "platform": "roblox",
+      "category": "Simulator",
+      "icon": "🫧",
+      "color": "#FF69B4",
+      "codes": [
+        {"code": "BUBBLE2024", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Twitter icon → Enter Code"
+    },
+    {
+      "id": "mining-simulator-2",
+      "name": "Mining Simulator 2",
+      "developer": "Rumble Studios",
+      "platform": "roblox",
+      "category": "Simulator",
+      "icon": "⛏️",
+      "color": "#8B4513",
+      "codes": [
+        {"code": "MINING2", "reward": "Tokens", "status": "active"}
+      ],
+      "redeem_method": "Settings → Codes"
+    },
+    {
+      "id": "tower-defense-simulator",
+      "name": "Tower Defense Simulator",
+      "developer": "Paradoxum Games",
+      "platform": "roblox",
+      "category": "Tower Defense",
+      "icon": "🗼",
+      "color": "#228B22",
+      "codes": [
+        {"code": "TDS2024", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Twitter icon → Enter Code"
+    },
+    {
+      "id": "bedwars",
+      "name": "BedWars",
+      "developer": "Easy.gg",
+      "platform": "roblox",
+      "category": "PvP",
+      "icon": "🛏️",
+      "color": "#FF4500",
+      "codes": [
+        {"code": "BEDWARS24", "reward": "Resources", "status": "active"}
+      ],
+      "redeem_method": "Menu → Codes"
+    },
+    {
+      "id": "arsenal",
+      "name": "Arsenal",
+      "developer": "ROLVe",
+      "platform": "roblox",
+      "category": "FPS",
+      "icon": "🔫",
+      "color": "#DC143C",
+      "codes": [
+        {"code": "ARSENAL2024", "reward": "Bucks", "status": "active"}
+      ],
+      "redeem_method": "Twitter icon → Enter Code"
+    },
+    {
+      "id": "phantom-forces",
+      "name": "Phantom Forces",
+      "developer": "StyLiS Studios",
+      "platform": "roblox",
+      "category": "FPS",
+      "icon": "🎯",
+      "color": "#2F4F4F",
+      "codes": [
+        {"code": "PHANTOM24", "reward": "Credits", "status": "active"}
+      ],
+      "redeem_method": "Menu → Codes"
+    },
+    {
+      "id": "livetopia",
+      "name": "Livetopia",
+      "developer": "Century Makers",
+      "platform": "roblox",
+      "category": "Life Sim",
+      "icon": "🏙️",
+      "color": "#00CED1",
+      "codes": [
+        {"code": "LIVETOPIA24", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Settings → Redeem"
+    },
+    {
+      "id": "club-roblox",
+      "name": "Club Roblox",
+      "developer": "Block Evolution Studios",
+      "platform": "roblox",
+      "category": "Life Sim",
+      "icon": "🎪",
+      "color": "#FF1493",
+      "codes": [
+        {"code": "CLUB2024", "reward": "Tokens", "status": "active"}
+      ],
+      "redeem_method": "Settings → Codes"
+    },
+    {
+      "id": "work-at-pizza-place",
+      "name": "Work at a Pizza Place",
+      "developer": "Dued1",
+      "platform": "roblox",
+      "category": "Simulation",
+      "icon": "🍕",
+      "color": "#FFA500",
+      "codes": [
+        {"code": "PIZZA24", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Manager's Office → Codes"
+    },
+    {
+      "id": "natural-disaster",
+      "name": "Natural Disaster Survival",
+      "developer": "Stickmasterluke",
+      "platform": "roblox",
+      "category": "Survival",
+      "icon": "🌪️",
+      "color": "#4682B4",
+      "codes": [],
+      "redeem_method": "No code system"
+    },
+    {
+      "id": "epic-minigames",
+      "name": "Epic Minigames",
+      "developer": "TypicalType",
+      "platform": "roblox",
+      "category": "Minigames",
+      "icon": "🎮",
+      "color": "#9932CC",
+      "codes": [
+        {"code": "EPIC2024", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Menu → Codes"
+    },
+    {
+      "id": "speed-run-4",
+      "name": "Speed Run 4",
+      "developer": "Vurse",
+      "platform": "roblox",
+      "category": "Obby",
+      "icon": "🏃",
+      "color": "#00FF00",
+      "codes": [],
+      "redeem_method": "No code system"
+    },
+    {
+      "id": "theme-park-tycoon",
+      "name": "Theme Park Tycoon 2",
+      "developer": "Den_S",
+      "platform": "roblox",
+      "category": "Tycoon",
+      "icon": "🎢",
+      "color": "#FF69B4",
+      "codes": [
+        {"code": "PARK2024", "reward": "Money", "status": "active"}
+      ],
+      "redeem_method": "Settings → Codes"
+    },
+    {
+      "id": "ninja-legends",
+      "name": "Ninja Legends",
+      "developer": "Scriptbloxian",
+      "platform": "roblox",
+      "category": "Simulator",
+      "icon": "🥷",
+      "color": "#800080",
+      "codes": [
+        {"code": "NINJA2024", "reward": "Chi", "status": "active"}
+      ],
+      "redeem_method": "Twitter icon → Enter Code"
+    },
+    {
+      "id": "saber-simulator",
+      "name": "Saber Simulator",
+      "developer": "HD Games",
+      "platform": "roblox",
+      "category": "Simulator",
+      "icon": "⚔️",
+      "color": "#C0C0C0",
+      "codes": [
+        {"code": "SABER24", "reward": "Coins", "status": "active"}
+      ],
+      "redeem_method": "Twitter icon → Enter Code"
+    },
+    {
+      "id": "magnet-simulator",
+      "name": "Magnet Simulator",
+      "developer": "RBX Games",
+      "platform": "roblox",
+      "category": "Simulator",
+      "icon": "🧲",
+      "color": "#FF0000",
+      "codes": [
+        {"code": "MAGNET24", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings → Codes"
+    },
+    {
+      "id": "ice-cream-simulator",
+      "name": "Ice Cream Simulator",
+      "developer": "Milkshake Games",
+      "platform": "roblox",
+      "category": "Simulator",
+      "icon": "🍦",
+      "color": "#FFB6C1",
+      "codes": [
+        {"code": "ICE2024", "reward": "Tokens", "status": "active"}
+      ],
+      "redeem_method": "Twitter icon → Enter Code"
+    },
+    {
+      "id": "zombie-attack",
+      "name": "Zombie Attack",
+      "developer": "wendy",
+      "platform": "roblox",
+      "category": "Shooter",
+      "icon": "🧟",
+      "color": "#556B2F",
+      "codes": [
+        {"code": "ZOMBIE24", "reward": "Gems", "status": "active"}
+      ],
+      "redeem_method": "Settings → Codes"
+    }
+  ]
+}
