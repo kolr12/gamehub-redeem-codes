@@ -297,6 +297,23 @@
       "redeem_method": "No code system",
       "redeem_url": null,
       "notes": "Brookhaven does not have a code redemption system. Uses gamepasses."
+    },
+    {
+      "id": "jujutsu-infinite",
+      "name": "Jujutsu Infinite",
+      "developer": "Sit Down Studio",
+      "category": "RPG/Jujutsu Kaisen Inspired",
+      "icon": "🔵",
+      "color": "#4B0082",
+      "codes": [
+        {"code": "1M_MEMBERS", "reward": "Free Rewards", "status": "active", "expires": "2024-12-31"},
+        {"code": "300K_SUBS", "reward": "Free Rewards", "status": "active", "expires": "2024-12-31"},
+        {"code": "200K_SUBS", "reward": "Free Rewards", "status": "active", "expires": "2024-12-31"},
+        {"code": "100K_SUBS", "reward": "Free Rewards", "status": "active", "expires": "2024-12-31"}
+      ],
+      "redeem_method": "In-game: Menu > Codes",
+      "redeem_url": null,
+      "notes": "Codes released during milestone events and subscriber celebrations."
     }
   ]
 }
